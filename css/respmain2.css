@@ -1,0 +1,252 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Raleway|Roboto+Slab);
+body,
+input,
+textarea { font-family: "Roboto Slab", "cursive"; color:  }
+
+
+
+
+
+h1, .content.archive-content h2, .lead .title, .site-title, .tagline, header nav, .mean-nav {
+font-family: "Raleway", "cursive";}
+
+
+/* #######################################################################
+
+	Theme CSS Options
+
+####################################################################### */
+
+/* Background Colours */
+
+/* Content Wrapper - Background covers entire page, use this for image tiles + full size cover too */
+section#main {
+background: #fafafa; 
+}
+header {
+background: url(../images/bg.jpg) 0 0 no-repeat;
+background-size: cover;
+}
+
+
+/* More and announcements footer and search top */
+li.more a {
+background:  #f77564; 
+}
+li.more a:hover  {
+background: #363f48; 
+}
+.announce {
+background: #f77564; 
+}
+.announce.social-header {
+background: #363f48; 
+}
+footer {
+background: #f77564;
+}
+
+/* Main Content Area */
+/* Flexslider navigation buttons */
+.flex-direction-nav a {
+background: #f77564;
+}
+
+
+.errorMessage{
+color:#FF0000;
+}
+.hint{
+color: #999999;
+}
+
+
+header nav {
+	background: #000000;
+		background: rgba(0,0,0,0.5);
+	}
+
+
+
+
+
+/* Font Colours */
+/* Main body font colour */
+body, 
+input, 
+button,
+textarea,
+.home.page-template-template-portfolio-php .the-content {
+color: #363f48; 
+}
+
+/* Links */
+a {
+color: ##616161;
+}
+a:hover {
+color: #363f48;
+}
+
+/* Site title */
+.site-title, .site-title a {
+color: #ffffff;
+}
+.site-title a:hover {
+color: #f77564;
+}
+.tagline {
+color: #ffffff;
+}
+.announce {
+color: #ffffff;
+}
+.announce a {
+color: #ffffff;
+}
+.announce a:hover {
+color: #ffffff;
+}
+.meta {
+color: #363f48;
+}
+.meta a {
+color: #363f48;
+}
+.meta a:hover {
+color: #f77564;
+}
+.pagination a {
+color: #fafafa;
+}
+.pagination a:hover {
+color: #363f48;
+}
+footer {
+color: #ffffff;
+}
+footer a {
+color: #ffffff;
+}
+footer a:hover {
+color: #363f48;
+}
+.sidebar {
+color: #363f48;
+}
+.sidebar a {
+color: #f77564;
+}
+.sidebar a:hover {
+color: #363f48;
+}
+li.more a {
+color: #ffffff;
+}
+li.more a:hover {
+color: #ffffff;
+}
+h1 {
+color: #363f48;
+}
+.archive-content h2 a {
+color: #f77564;
+}
+.archive-content h2 a:hover {
+color: #363f48;
+}
+
+/* Post format colours */
+article.format-link .the-content h2 a, .home article.format-link .the-content h2 a, article.format-aside .the-content h2 a, .home article.format-aside .the-content h2 a, article.format-link .the-content h2 a, .home article.format-aside .the-content, article.format-link .the-content, .archive-content article.format-status .the-content {
+color: #363f48;
+}
+article.format-link .the-content h2 a, article.format-link .the-content h1 a, .article-content article.format-link .the-content h2 a, .home article.format-link .the-content h2 a, .archive article.format-link .the-content h2 a {
+color: #f77564;
+}
+/* Header */
+header nav a {
+color: #ffffff;
+}
+
+header nav ul li.sfHover a,
+header nav ul li a:hover, 
+header nav li.active a,
+header nav li.current_page_item a,
+header nav li.current-menu-item a,
+header nav li.current_page_ancestor a, 
+header nav li.current_page_parent a,
+header nav li.current-post-ancestor a, 
+header nav li.current-page-ancestor a {
+color: #f77564;
+}
+.archive-content article .post-content .meta.bottom, .navigation, .comment-system, .contact-form, .meta.top li, .single .meta.bottom, header nav, .time a, .navigation a, .pagination li a, .pagination li span {
+border-color: #e1e1e1}
+.webicon {
+color: #afafaf}
+header nav ul ul li a, header nav li.sfHover li a {
+color: #363d48;
+}
+h1.searching span, .highlight {
+background-color: #fbf8ce;
+}
+.portfolio-content {
+background-color: #363f48;
+}
+
+header nav {
+	font-size: 18px}
+
+/* Main body font size */
+body, 
+input, 
+button,
+textarea {
+font-size: 18px;
+}
+.meta, .announce, footer {
+font-size: 15px;
+}
+h1, .archive-content h2, .archive-content h2 a {
+font-size: 39px;
+}
+h2 {
+font-size: 28px;
+}
+h3 {
+font-size: 26px;
+}
+h4 {
+font-size: 24px;
+}
+h5, .portfolio-content h2 {
+font-size: 22px;
+}
+h6 {
+font-size: 21px;
+}
+.meta li.more, .time a, .navigation a, .pagination li a, .pagination li span, .comment-reply a {
+font-size: 12px;
+}
+.sidebar h5 {
+font-size: 20px;
+}
+.site-title {
+font-size: 33px;
+}
+
+
+
+@media screen and (max-width: 620px) {
+header nav {
+display: none;
+}
+	
+}
+
+	
+
+
+	
+	
